@@ -94,9 +94,6 @@ a:hover {
 }
 
 .dropdown-open {
-  background-color: rgba(255, 255, 255, 0.93);
-  border-radius: 0.3rem;
-  box-shadow: 0 0.5rem 1rem #757575;
   position: absolute;
   opacity: 0;
   visibility: hidden;
