@@ -112,7 +112,7 @@ a:hover {
   }
 }
 
-.hero-text,
+.hero-text h3,
 .main-page-info p {
   text-align: center;
   font-size: 2rem;
@@ -121,7 +121,7 @@ a:hover {
   color: #0472ad;
 }
 
-.hero-text {
+.hero-text, h3 {
   line-height: 10rem;
 }
 
@@ -150,7 +150,7 @@ span {
   color: rgb(214, 224, 234);
 }
 @media screen and (min-width: 700px) {
-  .hero-text,
+  .hero-text, h3,
   .main-page-info {
     font-size: 2rem;
   }
