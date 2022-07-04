@@ -11,7 +11,7 @@
       dropdownOpen.style.left = `${item.lastElementChild.offsetLeft}px`;
     };
 
-    item.onmouseout = () => {
+    item.onmouseleave = () => {
       dropdownOpen.style.opacity = 0;
       dropdownOpen.style.visibility = "hidden";
     };
