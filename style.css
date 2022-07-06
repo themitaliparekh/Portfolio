@@ -56,7 +56,7 @@ body {
   opacity: 0;
   visibility: visible;
   height: 0;
-  right: 100rem;
+  right: 60rem;
   transform: translateX(10%);
   transition: all 0.3s;
 }
