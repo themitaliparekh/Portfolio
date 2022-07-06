@@ -52,7 +52,7 @@ body {
   margin-top: 1rem;
   position: absolute;
   background-color: lightgray;
-  z-index: 100;
+  z-index: 9;
   opacity: 0;
   visibility: visible;
   height: 0;
