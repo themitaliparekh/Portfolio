@@ -51,7 +51,7 @@ body {
 .dropdown {
   margin-top: 1rem;
   position: absolute;
-  background-color: lightgrey;
+  background-color: lightgray;
   z-index: 100;
   opacity: 0;
   visibility: visible;
