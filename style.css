@@ -39,6 +39,7 @@ body {
   margin-top: 0;
   text-align: center;
   width: 25vw;
+  position: relative;
 }
 
 .nav-link {
@@ -49,7 +50,8 @@ body {
 
 .dropdown {
   margin-top: 1rem;
-  position: relative;
+  position: absolute;
+  background-color: lightgrey;
   z-index: 100;
   opacity: 0;
   visibility: visible;
