@@ -52,15 +52,23 @@ body {
   margin-top: 1rem;
   position: absolute;
   background-color: lightgray;
+  left: 0.3rem;
+  width: 12rem;
   z-index: 100;
   opacity: 0;
   visibility: visible;
   height: 0;
-  right: 60rem;
   transform: translateX(10%);
   transition: all 0.3s;
 }
 
+@media screen and (min-width: 1080px) {
+  .dropdown {
+    left: 3rem;
+    right: 20rem;
+    width: 13rem;
+  }
+}
 .nav-item:hover .dropdown {
   transform: translateX(0);
   opacity: 1;
